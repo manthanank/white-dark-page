@@ -12,6 +12,31 @@ body {
 button{
     position:relative;left:80%;
 }
+.icons{
+    width: 13.5%;
+    border-radius: 5px;
+    padding:5px;
+    background-color: white;
+    color: black;
+    height: 50px;
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fa,fa-github{
+    font-size:50px;color:rgb(0, 0, 0);
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .icons
+    {
+        width:46%;
+        border-radius: 5px;
+        padding:5px;
+        background-color: white;
+        color: black;
+    }
+  }
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     button
     {
